@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("gemini-2.0-flash-exp")
+model = genai.GenerativeModel("gemini-pro")
 
 st.set_page_config(page_title="AI Study Buddy", page_icon="📚")
 st.title("📚 AI-Powered Study Buddy")
